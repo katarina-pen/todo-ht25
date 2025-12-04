@@ -1,1 +1,25 @@
 
+h1 Alla todos
+
+-@todoData.each do |todo|
+    
+    / p Id: #{todo["id"]}
+    p #{todo["name"]}
+    p Beskrivning: #{todo["description"]}
+    h5 
+        a href="/todo/#{todo["id"]}/edit" Redigera #{todo["name"]}
+
+
+    form action="/todo/#{todo["id"]}/delete" method="post"
+      input type="submit" value="Ta bort #{todo["name"]}🔥🗑️"
+
+    br
+
+    
+
+h2 Skapa en ny todo
+h5 
+  a href="/todoNew" Ny todo
+
+
+

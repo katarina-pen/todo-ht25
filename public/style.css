@@ -1,7 +1,12 @@
 body {
   font-family: sans-serif;
-  color: #666;
-  background-color: #f1f1f1;
+  color: #eddcb4;
+  background-color: #488930;
   font-size: x-large;
   margin: 1em;
+}
+
+.col {
+  background-color: blueviolet;
+  border: solid black;
 }
