@@ -1,7 +1,7 @@
 h2 Uppdatera dina todos 📄
 
 form action="/todo/#{@update_todo["id"]}/update" method="post" 
-    input type="text" name="name" value="#{@update_todo["name"]}"
-    input type="text" name="description" value="#{@update_todo["description"]}"
+    input type="text" name="name" placeholder="Namn på todo" value="#{@update_todo["name"]}"
+    input type="text" name="description" placeholder="Beskrivning för todo" value="#{@update_todo["description"]}"
     / input type="boolean" name="description" value="#{@update_todo["state"]}"
     input type="submit" value="Uppdateraヾ(•ω•`)o"
